@@ -1,0 +1,120 @@
+/* basic elements */
+html {
+	margin: 0;
+	padding: 0;
+	}
+header,
+footer {
+	background-color: #99004d;
+	}
+header {
+	font: garamond;
+	font-size: 25px;
+	font-weight: bold;
+	background-color: black;
+	color: #FFFFFF;
+	text-align: center;
+	}
+body {
+	font: sans-serif;
+	background: #CC0066;
+	margin: 0;
+	}
+p {
+	margin-top: 5;
+	text-align: center;
+	font-style: italic;
+	font-size: 20px;
+	border: solid;
+	border-color: black;
+	background-color: #ffe6f2;
+	}
+section {
+	font-family: Garamond;
+	font-size: 50px;
+	font-weight: bold;
+	font-stretch: extra-expanded;
+	color: black;
+	border-style: double;
+	border-width: medium;
+	margin-left: 25px;
+	margin-right: 25px;
+	text-align: center;
+	background-color: #e60066;
+	}
+ul {
+	padding-left: 50px;
+	padding-right: 50px;
+	}
+li {
+	font-family: sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	color: white;
+	list-style-type: none;
+	list-style-position: inside;
+	text-align: center;
+	background-color: #b30059;
+	border-style: solid;
+	border-color: black;
+}
+span {
+	font-style: oblique;
+	font-weight: bolder;
+}
+a:link {
+	font-weight: bold;
+	text-decoration: underline;
+	color: #8a2be2;
+	}
+a:visited {
+	font-weight: bold;
+	text-decoration: none;
+	color: #c18ff0;
+	}
+a:hover, a:focus, a:active {
+	text-decoration: none;
+	color: #9685BA;
+	}
+footer {
+	text-align: center;
+	color: #FFFFFF;
+	}
+
+
+.grid_element1p {
+	display: block;
+	  width: 600px;
+	  height: 700px;
+	  margin: auto;
+	  padding-top: 20px;
+	  padding-bottom: 20px;
+	  padding-left: 20px;
+		}
+.grid_element1l {
+	display: block;
+	  width: 700px;
+	  height: 600px;
+	  margin: auto;
+	  padding-top: 20px;
+	  padding-bottom: 20px;
+	  padding-left: 20px;
+		}
+.grid_element2 {
+	  display: inline-block;
+	  width: 600px;
+	  height:550px;
+	  margin: auto;
+	  padding-top: 20px;
+	  padding-bottom: 20px;
+	  padding-left: 20px;
+	  }
+.grid_element3 {
+	  display: inline-block;
+	  width: 400px;
+	  height:375px;
+	  margin: auto;
+	  padding-top: 20px;
+	  padding-bottom: 20px;
+	  padding-left: 10px;
+	}
